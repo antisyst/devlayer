@@ -25,10 +25,10 @@ export default function Navigation() {
                   <div className="row">
                     <header className='animate__animated animate__bounceIn'>Design Services</header>
                     <ul className="mega-links animate__animated animate__bounceIn">
-                      <li><a href="/web-design" className='animate__animated animate__bounceIn'>UI/UX Design</a></li>
-                      <li><a href="/graphic-design" className='animate__animated animate__bounceIn'>Graphic Design</a></li>
-                      <li><a href="/logo-design" className='animate__animated animate__bounceIn'>Logo Design</a></li>
-                      <li><a href="/product-design" className='animate__animated animate__bounceIn'>Product Design</a></li>
+                      <li><a href="/web-design">UI/UX Design</a></li>
+                      <li><a href="/graphic-design">Graphic Design</a></li>
+                      <li><a href="/logo-design">Logo Design</a></li>
+                      <li><a href="/product-design">Product Design</a></li>
                     </ul>
                   </div>
                   <div className="row">
