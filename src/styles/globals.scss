@@ -1,0 +1,40 @@
+:root {
+  --var-color-white: #ffff;
+  --var-color-black: #000000;
+  --var-color-advanced: #0658F6;
+}
+::selection {
+  background: var(--var-color-advanced);
+  color: var(--var-color-white);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+br {
+  user-select: none;
+}
+a {
+  user-select: none;
+}
+.box-scroll-shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.box-ord-shadow {
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 768px) {
+  a {
+    cursor: none;
+  }
+  svg {
+    cursor: none;
+  }
+}
+
+.advanced-animation {
+  transform-origin: center bottom;
+}
